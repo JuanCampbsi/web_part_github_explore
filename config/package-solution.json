@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "primeiro-projeto-react-js-client-side-solution",
+    "id": "83f9e61d-6268-4167-8766-d0893bc24a49",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/primeiro-projeto-react-js.sppkg"
+  }
+}

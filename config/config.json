@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "home-primeiro-react-js-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/homePrimeiroReactJs/HomePrimeiroReactJsWebPart.js",
+          "manifest": "./src/webparts/homePrimeiroReactJs/HomePrimeiroReactJsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HomePrimeiroReactJsWebPartStrings": "lib/webparts/homePrimeiroReactJs/loc/{locale}.js"
+  }
+}
