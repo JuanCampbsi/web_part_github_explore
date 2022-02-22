@@ -1,26 +1,68 @@
-## primeiro-projeto-react-js
+<p align="center">
+<h1>
+ WebPartGitHubExplore
 
-This is where you include your WebPart documentation.
+</h1>
+</p>
 
-### Building the code
+### 🛠  Descrição
+
+</br>
+
+O projeto tem como objetivo consumir dados da api do gitHub, em uma WebPart.
+
+
+## Preview
+Interface do usuário.
+</br>
+
+<p align="center">
+  <kbd>
+ <img width="800" style="border-radius: 10px" height="400" src="" alt="Intro">
+  </kbd>
+  </br>
+</p>
+
+</br>
+
+### ⌨ Instalação
+Para a utilização é preciso clonar o repositório, instalar as depedências e rodar o projeto.
 
 ```bash
-git clone the repo
-npm i
-npm i -g gulp
-gulp
+# Abra o terminal/cmd e em seguida Clone este repositório
+$ git clone https://github.com/JuanCampbsi/WebPartGitHubExplore.git
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd WebPartGitHubExplore
+
+# Instale as dependências
+$ npm install
+
+# Gerar bundle
+$ gulp bundle
+
+# Execute a aplicação em modo de desenvolvimento
+$ gulp serve || gulp server --nobrowser
+
+# Gerar package-solution
+$ gulp package-solution 
+
 ```
 
-This package produces the following:
+</br>
 
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
+### ⌨ Pilha de tecnologias e bibliotecas
 
-### Build options
+-   [SPFX](https://docs.microsoft.com/pt-br/sharepoint/dev/spfx/sharepoint-framework-overview)
+-   [React](https://github.com/facebook/react)
+-   [Typescript](https://www.typescriptlang.org/)
 
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+
+</br>
+
+👨‍💻 **Author** 💻
+
+Developed by [_Juan Campos_](https://www.linkedin.com/in/juancampos-ferreira/)
+
+
+
